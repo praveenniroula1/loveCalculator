@@ -5,30 +5,45 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>love Calculator</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD"
+      crossorigin="anonymous"
+    />
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <!-- top -->
-    <div class="wrapper">
-      <div class="headline">
-        <h1>My Love for you:</h1>
+    <div class="alert alert" role="alert">
+      <div class="alert alert-danger" role="alert">
+        Put your name and your crush name. And then click on the calculate
+        button system will automatically calculate how much percent (0%-100%) of
+        compatibility on love has. Love calculator comes with lots of features.
+        In our tools, we implement all the possible features that can be
+        implementable.
       </div>
-      <div class="image">
-        <img src="img/love.png" alt="love pic" />
-      </div>
-
-      <!-- input feild -->
-      <div class="input">
-        <input  placeholder="Your Name" />
-        <input placeholder="Your Partner's Name" />
-      </div>
-
-      <!-- buttons -->
-      <h1>Click Me!!!</h1>
-      <div class="button1">
-
-        <img class="img1" src="img/button.png"></img>
     </div>
+    <div class="hero row">
+      <div class="card" style="width: 22rem">
+        <img src="img/love.png" class="card-img-top" alt="..." />
+        <div class="card-body">
+          <h5 class="card-title">Your Name:</h5>
+          <p class="card-text"></p>
+          <a class="btn btn-secondary"
+            ><input placeholder="Insert your name"
+          /></a>
+        </div>
+      </div>
+      <div class="card order-md-2" style="width: 22rem">
+        <img src="img/button.png" class="second card-img-top" alt="..." />
+        <div class="card-body">
+          <h5 class="textt card-title">Your Partner's Name:</h5>
+          <a class="btn btn-secondary"
+            ><input placeholder="Insert  Partner's name"
+          /></a>
+        </div>
+      </div>
+      <button class="col-md-3">Click Me to Calculate!!!</button>
     </div>
     <script src="index.js"></script>
   </body>
