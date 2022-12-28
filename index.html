@@ -23,14 +23,21 @@
         implementable.
       </div>
     </div>
-    <div class="hero row">
+    <div>
+      <h1 id="display" class="display">Hello</h1>
+    </div>
+    <div class="hero container row">
       <div class="card" style="width: 22rem">
         <img src="img/love.png" class="card-img-top" alt="..." />
         <div class="card-body">
           <h5 class="card-title">Your Name:</h5>
           <p class="card-text"></p>
           <a class="btn btn-secondary"
-            ><input placeholder="Insert your name"
+            ><input
+              required
+              value=""
+              class="input1"
+              placeholder="Insert your name"
           /></a>
         </div>
       </div>
@@ -39,11 +46,15 @@
         <div class="card-body">
           <h5 class="textt card-title">Your Partner's Name:</h5>
           <a class="btn btn-secondary"
-            ><input placeholder="Insert  Partner's name"
+            ><input
+              required
+              value=""
+              class="input2"
+              placeholder="Insert  Partner's name"
           /></a>
         </div>
       </div>
-      <button class="col-md-3">Click Me to Calculate!!!</button>
+      <button id="button" class="col-md-3">Click Me to Calculate!!!</button>
     </div>
     <script src="index.js"></script>
   </body>
