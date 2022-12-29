@@ -1,9 +1,13 @@
 let percent = "";
 const displayLove = document.getElementById("display");
-const input1 = document.getElementById("input1");
-const input2 = document.getElementById("input2");
 
 const button = document.getElementById("button");
+
+const handleOnChange = () => {
+  const input1 = document.getElementById("input1").value;
+  const input2 = document.getElementById("input2").value;
+  console.log(input1, input2);
+};
 
 const displayLoveScreen = () => {
   button.addEventListener("click", () => {
