@@ -64,3 +64,7 @@ button:hover {
   border-radius: 12px;
   border: 2px solid rgba(238, 240, 243, 0.3);
 }
+.display {
+  display: flex;
+  justify-content: center;
+}

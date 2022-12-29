@@ -14,6 +14,7 @@ const displayLoveScreen = () => {
     const loveData = Math.random() * 100;
     const percentValue = Math.floor(loveData);
     const percent = percentValue;
+
     window.scrollTo(0, 0);
     if (percent >= 50) {
       displayLove.innerHTML =
